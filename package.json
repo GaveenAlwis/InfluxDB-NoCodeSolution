@@ -1,0 +1,23 @@
+{
+  "name": "influxui-ug3",
+  "version": "1.0.0",
+  "description": "Private repo for InfluxUI-UG3",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd server && npm install && cd ../ && cd client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.7"
+  }
+}
